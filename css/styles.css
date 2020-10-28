@@ -164,7 +164,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: #c0392b;
   text-decoration: underline;
 }
 
@@ -6097,7 +6097,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #e74c3c !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9799,7 +9799,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #e74c3c !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10132,4 +10132,13 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+a {
+  color: #e74c3c;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#title {
+  color: #e74c3c;
 }
