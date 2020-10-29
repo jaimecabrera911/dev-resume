@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?g0drzp');
+  src:  url('fonts/icomoon.eot?g0drzp#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?g0drzp') format('truetype'),
+    url('fonts/icomoon.woff?g0drzp') format('woff'),
+    url('fonts/icomoon.svg?g0drzp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-php:before {
+  content: "\e910";
+  color: #6c757d;
+}
+.icon-php:hover {
+  content: "\e910";
+  color: #4812dd;
+}
+
+.icon-amazonaws:hover {
+  content: "\e90f";
+  color: #0a0b0c;
+}
+
+.icon-amazonaws:before {
+  content: "\e90f";
+  color: #6c757d;
+}
+
+.icon-postgresql:before {
+  content: "\e900";
+  color: #6c757d;
+}
+.icon-r:before {
+  content: "\e901";
+  color: #6c757d;
+}
+.icon-linux:before {
+  content: "\e902";
+  color: #6c757d;
+}
+.icon-microsoftoffice:before {
+  content: "\e903";
+  color: #6c757d;
+}
+.icon-spring:before {
+  content: "\e904";
+  color: #6c757d;
+}
+.icon-python:before {
+  content: "\e905";
+  color: #6c757d;
+}
+.icon-eclipseide:before {
+  content: "\e906";
+  color: #6c757d;
+}
+.icon-dot-net:before {
+  content: "\e907";
+  color: #6c757d;
+}
+.icon-vscode:before {
+  content: "\e908";
+  color: #6c757d;
+}
+.icon-visualstudio:before {
+  content: "\e909";
+  color: #6c757d;
+}
+.icon-docker:before {
+  content: "\e90a";
+  color: #6c757d;
+}
+.icon-mysql:before {
+  content: "\e90b";
+  color: #6c757d;
+}
+.icon-firebase:before {
+  content: "\e90c";
+  color: #6c757d;
+}
+.icon-mongodb:before {
+  content: "\e90d";
+  color: #6c757d;
+}

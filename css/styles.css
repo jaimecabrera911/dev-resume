@@ -10142,3 +10142,69 @@ a {
 #title {
   color: #e74c3c;
 }
+
+.social-icons .linkedin:hover {
+  background-color: #0073b1;
+}
+
+.social-icons .github:hover {
+  background-color: #000000;
+}
+
+.social-icons .twitter:hover {
+  background-color: #1da1f2;
+}
+.social-icons .facebook:hover {
+  background-color: #0073b1;
+}
+
+
+.java:hover {
+  color: #016aaf;
+}
+.html5:hover {
+  color: #f64a1d;
+}
+.css:hover {
+  color: #254bdd;
+}
+.js:hover {
+  color: #efd81d;
+}
+.react:hover {
+  color: #5ed3f3;
+}
+.angular:hover {
+  color: #d6002f;
+}
+.php:hover {
+  color: #7377ad;
+}
+.db:hover {
+  color: #f7a000;
+}
+.nodejs:hover {
+  color: #7baa1a;
+}
+.sass:hover {
+  color: #c76494;
+}
+.npm:hover {
+  color: #c53635;
+}
+
+.git:hover {
+  color: #3b2c00;
+}
+
+.githubicon:hover {
+  color: #000000;
+}
+
+.bootstrap:hover {
+  color: #533b78;
+}
+
+.amazonaws:hover {
+  color: #6d1061;
+}
