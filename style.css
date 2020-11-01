@@ -100,3 +100,8 @@
   content: "\e90d";
   color: #6c757d;
 }
+
+.icon-ruby:before {
+  content: "\e90e";
+  color: #6c757d;
+}

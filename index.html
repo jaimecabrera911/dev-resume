@@ -19,16 +19,14 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top animate__animated animate__bounce animate__fadeInLeft  animate__slower" id="sideNav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary overflow-auto vh-100 fixed-top animate__animated animate__bounce animate__fadeInLeft  animate__slower"
+        id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Jaime Cabrera</span>
             <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
@@ -62,7 +60,8 @@
                     <a class="nav-link js-scroll-trigger" href="#skills"><i class="fas fa-dice-d20"></i> Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#projects"><i class="fas fa-network-wired"></i> Projects</a>
+                    <a class="nav-link js-scroll-trigger" href="#projects"><i class="fas fa-network-wired"></i>
+                        Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#interests"><i class="fas fa-gamepad"></i> Interests</a>
@@ -70,12 +69,25 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#awards"><i class="fas fa-award"></i> Awards</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger"
-                        href="https://drive.google.com/file/d/1wWP_bvT5Ydw9AfmQnabbYXX9MQ-8ogyP/view?usp=sharing"
-                        target="_blank">
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                        aria-haspopup="true" aria-expanded="false">
                         <i class="far fa-file-pdf"></i> Download
                     </a>
+                    <div class="dropdown-menu ml-4 bg-primary border-0 pl-3" aria-labelledby="dropdownMenuButton">
+                        <a class="nav-link text-light" style="font-size: small;"
+                        href="https://drive.google.com/file/d/1wWP_bvT5Ydw9AfmQnabbYXX9MQ-8ogyP/view?usp=sharing"
+                        target="_blank"
+                        >
+                        <i class="fas fa-file-download"></i>
+                        English version</a>
+                        <a class="nav-link text-light" style="font-size: small;"
+                        href="https://drive.google.com/file/d/1MNBcVsLDgDurbbvoo0Rq_RkZfgEee0o6/view?usp=sharing"
+                        target="_blank"
+                        >
+                        <i class="fas fa-file-download"></i>
+                        Spanish version</a>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -83,7 +95,9 @@
     <!-- Page Content-->
     <div class="container-fluid p-0 main">
         <!-- About-->
-        <section class="resume-section animation animate__animated animate__bounce animate__fadeIn  animate__fadeInDown animate__slower" id="about">
+        <section
+            class="resume-section animation animate__animated animate__bounce animate__fadeIn  animate__fadeInDown animate__slower"
+            id="about">
             <div class="resume-section-content">
                 <h1 class="mb-0">
                     Jaime Andrés
@@ -91,13 +105,14 @@
                     <span class="text-primary">Cabrera Avendaño</span>
                 </h1>
                 <div class="subheading mb-5">
-                    <i class="fas fa-map-marker-alt"></i> Bogotá, Colombia &middot <i
-                        class="fas fa-mobile"></i> 350 4750746 &middot
+                    <i class="fas fa-map-marker-alt"></i> Bogotá, Colombia &middot <i class="fas fa-mobile"></i> 350
+                    4750746 &middot
                     <a href="mailto:cabrerajaimeandres@gmail.com"><i class="far fa-envelope"></i>
                         cabrerajaimeandres@gmail.com</a>
                 </div>
                 <p class="lead mb-5 text-justify">
-                    Im Full Stack Developer, Analysis and Development of Information Systems Technology and Public Accountant. Computer
+                    Im Full Stack Developer, Analysis and Development of Information Systems Technology and Public
+                    Accountant. Computer
                     programmer highly trained in both front-end and back-end programming. Responsible for developing and
                     designing the front-end web architecture, ensuring the responsiveness of applications, and working
                     alongside graphic designers for web design functions, among other tasks.
@@ -378,19 +393,34 @@
             <h2 class="mb-5" id="title"><i class="fas fa-dice-d20"></i> Skills</h2>
             <div class="subheading mb-3">Programming Languages & Tools</div>
             <ul class="list-inline dev-icons">
-                <li class="list-inline-item java" data-toggle="tooltip" data-placement="top" title="Java"><i class="fab fa-java"></i></li>
-                <li class="list-inline-item js" data-toggle="tooltip" data-placement="top" title="JavaScript"><i class="fab fa-js-square"></i></li>
-                <li class="list-inline-item php" data-toggle="tooltip" data-placement="top" title="PHP"><i class=" icon-php"></i></li>
-                <li class="list-inline-item python"data-toggle="tooltip" data-placement="top" title="Python"><i class=" icon-python"></i></li>
-                <li class="list-inline-item dotnet"data-toggle="tooltip" data-placement="top" title=".Net"><i class=" icon-dot-net"></i></li>
-                <li class="list-inline-item r" data-toggle="tooltip" data-placement="top" title="R"><i class=" icon-r"></i></li>
-                <li class="list-inline-item amazonaws" data-toggle="tooltip" data-placement="top" title="AWS"><i class="icon-spring"></i></li>
-                <li class="list-inline-item react" data-toggle="tooltip" data-placement="top" title="React"><i class="fab fa-react"></i></li>
-                <li class="list-inline-item angular" data-toggle="tooltip" data-placement="top" title="Angular"><i class="fab fa-angular"></i></li>
-                <li class="list-inline-item html5" data-toggle="tooltip" data-placement="top" title="HTML5"><i class="fab fa-html5"></i></li>
-                <li class="list-inline-item css" data-toggle="tooltip" data-placement="top" title="CSS"><i class="fab fa-css3-alt"></i></li>
-                <li class="list-inline-item mysql" data-toggle="tooltip" data-placement="top" title="MySQL"><i class="icon-mysql"></i></li>
-                <li class="list-inline-item mongodb" data-toggle="tooltip" data-placement="top" title="mongodb"><i class="icon-mongodb"></i></li>
+                <li class="list-inline-item java" data-toggle="tooltip" data-placement="top" title="Java"><i
+                        class="fab fa-java"></i></li>
+                <li class="list-inline-item js" data-toggle="tooltip" data-placement="top" title="JavaScript"><i
+                        class="fab fa-js-square"></i></li>
+                <li class="list-inline-item php" data-toggle="tooltip" data-placement="top" title="PHP"><i
+                        class=" icon-php"></i></li>
+                <li class="list-inline-item python" data-toggle="tooltip" data-placement="top" title="Python"><i
+                        class=" icon-python"></i></li>
+                <li class="list-inline-item dotnet" data-toggle="tooltip" data-placement="top" title=".Net"><i
+                        class=" icon-dot-net"></i></li>
+                <li class="list-inline-item ruby" data-toggle="tooltip" data-placement="top" title="Ruby"><i
+                        class=" icon-ruby"></i></li>
+                <li class="list-inline-item r" data-toggle="tooltip" data-placement="top" title="R"><i
+                        class=" icon-r"></i></li>
+                <li class="list-inline-item amazonaws" data-toggle="tooltip" data-placement="top" title="AWS"><i
+                        class="icon-spring"></i></li>
+                <li class="list-inline-item react" data-toggle="tooltip" data-placement="top" title="React"><i
+                        class="fab fa-react"></i></li>
+                <li class="list-inline-item angular" data-toggle="tooltip" data-placement="top" title="Angular"><i
+                        class="fab fa-angular"></i></li>
+                <li class="list-inline-item html5" data-toggle="tooltip" data-placement="top" title="HTML5"><i
+                        class="fab fa-html5"></i></li>
+                <li class="list-inline-item css" data-toggle="tooltip" data-placement="top" title="CSS"><i
+                        class="fab fa-css3-alt"></i></li>
+                <li class="list-inline-item mysql" data-toggle="tooltip" data-placement="top" title="MySQL"><i
+                        class="icon-mysql"></i></li>
+                <li class="list-inline-item mongodb" data-toggle="tooltip" data-placement="top" title="mongodb"><i
+                        class="icon-mongodb"></i></li>
                 <li class="list-inline-item db"><i class="icon-firebase"></i></li>
                 <li class="list-inline-item db"><i class="icon-postgresql"></i></li>
                 <li class="list-inline-item db"><i class="fas fa-database"></i></li>
@@ -452,6 +482,10 @@
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Teamwork
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
                     Patience
                 </li>
             </ul>
@@ -465,7 +499,8 @@
                     <span class="fa-li"><i class="fas fa-globe"></i></span>
                     <a href="https://merca-shop-front-end.vercel.app/"><strong>Mercashop</strong></a>
                     <span> - https://merca-shop-front-end.vercel.app/</span>
-                    <p>https://github.com/jaimecabrera911/mercashop-frontend<br>https://github.com/jaimecabrera911/mercashop-backend</p>
+                    <p>https://github.com/jaimecabrera911/mercashop-frontend<br>https://github.com/jaimecabrera911/mercashop-backend
+                    </p>
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-globe"></i></span>
@@ -530,8 +565,12 @@
     <script src="demo-files/demo.js"></script>
 
     <script>
-        ScrollReveal({ reset: true }).reveal('.animation', { delay: 300 });
-	</script>
+        ScrollReveal({
+            reset: true
+        }).reveal('.animation', {
+            delay: 300
+        });
+    </script>
 </body>
 
 </html>
